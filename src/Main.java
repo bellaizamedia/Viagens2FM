@@ -17,6 +17,8 @@ public class Main {
         String nome = JOptionPane
                 .showInputDialog("Entre com o nome do turista:";
 
-                Turista pessoa
+                Turista pessoaTurista = new Turista(nome);
+
+                // Pedir cpf e mostrar
     }
 }
