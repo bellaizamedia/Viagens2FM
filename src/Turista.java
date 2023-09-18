@@ -5,8 +5,11 @@ public class Turista {
     //Construtor Padrão
     Turista(){}
     // Construtor personalizado
-    Turista(String _nome){
-        this.nome = _nome;
+    Turista(String _nome){}
+    //  Mias uma sobrecarga do construtor
+    Turista(String _nome, String _cpf) {
+        this.nome =_nome;
+        this.cpf = _cpf;
     }
     // Métodos
     public String viajar(){

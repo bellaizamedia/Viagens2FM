@@ -13,5 +13,10 @@ public class Main {
         String retorno = mochileira.viajar();
         JOptionPane.showMessageDialog(null,retorno);
 
+        //Atribuição dinamica
+        String nome = JOptionPane
+                .showInputDialog("Entre com o nome do turista:";
+
+                Turista pessoa
     }
 }
